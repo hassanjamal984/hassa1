@@ -1,0 +1,156 @@
+@media (max-width: 574px) {
+  .text-color-content-header {
+    font-size: 1.5em;
+  }
+  .text-sub-header {
+    font-size: 0.8em;
+  }
+  .img-header-shick {
+    width: 16em;
+    transform: translateY(4em);
+  }
+  .contetn-txt-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-text {
+    width: 7em;
+  }
+  .row-define {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .difine-txt {
+    font-size: 1.5em;
+  }
+  .content-section-define {
+    font-size: 1em;
+  }
+  .width-text {
+    width: 23em;
+  }
+  .img-define {
+    width: 16em;
+  }
+  .tit-makia {
+    font-size: 1.5em;
+  }
+  .text-point {
+    font-size: 1em;
+  }
+  .iphone-img {
+    width: 16em;
+  }
+  .group-of-links {
+    display: flex;
+    justify-content: center;
+  }
+  .img-section-makia {
+    display: flex;
+    justify-content: center;
+  }
+  .down-play {
+    width: 10em;
+  }
+  .down-app {
+    width: 8.5em;
+  }
+  .part-img-books {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-main-iqtibas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .simicolon {
+    width: 15em;
+  }
+  .titele-stat {
+    font-size: 2em;
+  }
+  .num-item {
+    font-size: 20px;
+  }
+  .img-footer-txt {
+    width: 10em;
+  }
+  .rights {
+    font-size: 12px;
+  }
+  .position-mobile {
+    position: none;
+  }
+  .col-bottom-makia {
+    padding-top: 3em;
+  }
+  .section-makia {
+    padding-top: 2em;
+  }
+  .part-background-texture {
+    background: none;
+    background-color: #e8f0f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parts-bellow {
+    display: none;
+  }
+  .padding-part-two {
+    padding-top: 1.7em;
+  }
+  .txt-boxs-import {
+    font-size: 14px;
+  }
+  .col-main-iqtibas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* Tablet */
+@media (max-width: 991px) {
+  .parts-bellow {
+    display: none;
+  }
+  .padding-part-two {
+    padding-top: 1.7em;
+  }
+  .img-section-makia {
+    padding-top: 3em;
+  }
+  .section-makia {
+    padding-top: 2em;
+  }
+  .txt-boxs-import {
+    font-size: 17px;
+  }
+  .col-main-iqtibas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-header-shick {
+    width: 24em;
+    transform: translateY(7em);
+  }
+  .row-define {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contetn-txt-header {
+    padding-top: 4em;
+  }
+}
+@media (min-width: 991px) {
+  .navbar-togglers {
+    display: none;
+  }
+}

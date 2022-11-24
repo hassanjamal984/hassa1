@@ -1,0 +1,200 @@
+@font-face {
+  font-family: noto-Regular;
+  src: url(/fonts/Noto/NotoKufiArabic-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: noto-Regular;
+}
+/* navbar */
+.navbar {
+  background-color: #d5a461;
+}
+.nav-link {
+  color: #fff;
+}
+.dropdown-item:hover {
+  background-color: rgb(162, 188, 232);
+  color: #104353;
+}
+.link-item:hover {
+  background-color: #19657f;
+  border-radius: 18px;
+  color: #fff;
+}
+.navbar-togglers {
+  border: none;
+  outline: none;
+  font-size: 22px;
+  background: none;
+  color: #fff;
+}
+/* section-header */
+.section-header {
+  background: url(/imgs/centering.png) no-repeat center right;
+  background-size: cover;
+  padding: 2.8em 0;
+}
+.imgs-books {
+  width: 34em;
+  transform: translateY(6em);
+}
+.txt-books {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.sub-section-books {
+  color: #fff;
+}
+.row-gathred-defs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.col-text-def-bellow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.links-language {
+  display: inline-block;
+  background-color: #fff;
+  color: black;
+  padding: 0.3em 1.5em;
+  border-radius: 16px;
+  transform: translateY(8.7em);
+  box-shadow: 0px 0px 7px 0px rgb(197, 196, 196);
+}
+.nav-item {
+  list-style: none;
+}
+.nav-links {
+  transform: translateY(-1.7em);
+}
+/* section-explain */
+.box-audio {
+  background-color: #f3f3f3;
+  padding: 1em 1em;
+  border-radius: 20px;
+  width: 90%;
+}
+.link-show-above {
+  color: #d5a461;
+}
+.line-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.margin-txt {
+  margin-top: 1em;
+}
+.tit-page-boxs {
+  font-weight: bold;
+  font-size: 23px;
+}
+.line-between {
+  width: 100%;
+}
+.content-txt-img {
+  display: flex;
+  align-items: center;
+}
+.col-sharing {
+  display: flex;
+  justify-content: center;
+}
+.line-one-share,
+.line-two-share {
+  display: flex;
+  justify-content: space-between;
+}
+.doen-book-now {
+  background-color: #d5a461;
+  border: none;
+  padding: 0.5em 1.5em;
+  border-radius: 20px;
+  color: #fff;
+}
+.share-txt {
+  font-weight: bold;
+}
+.bprdering {
+  border: 1px solid #d5a461;
+  padding: 1.5em 1.3em;
+  border-radius: 20px;
+}
+.fa-brands,
+.fa-solid {
+  color: #e1dede;
+  font-size: 22px;
+}
+.box-brands-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d5a461;
+  width: 3.5em;
+  border-radius: 10px;
+  height: 3.5em;
+}
+.box-brands-border:hover {
+  background-color: #0077b5;
+  border: none;
+}
+.btn-define {
+  border: none;
+  background-color: #d5a461;
+  padding: 0.1em 1em;
+  border-radius: 22px;
+  color: #fff;
+  font-size: 13px;
+}
+.contain-box-books-data {
+  display: flex;
+}
+.books-txt {
+  font-weight: bold;
+}
+.tit-book {
+  font-weight: bold;
+  font-size: 16px;
+}
+.sub-book {
+  font-size: 12px;
+}
+.tit-audio {
+  color: rgb(128, 128, 128);
+}
+.clouck {
+  font-size: 12px;
+  padding: 0 1em;
+}
+
+/* footer */
+.footer-one {
+  background-color: #19657f;
+}
+.row-items-complete {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+.col-links-logo-media {
+  display: flex;
+  justify-content: flex-end;
+}
+.end-footer-line {
+  background-color: #144d60;
+  color: rgb(204, 202, 202);
+}
+.color-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

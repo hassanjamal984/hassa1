@@ -1,0 +1,186 @@
+@font-face {
+  font-family: noto-Regular;
+  src: url(/fonts/Noto/NotoKufiArabic-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: noto-Regular;
+}
+/* navbar */
+.navbar {
+  background-color: #d5a461;
+}
+.nav-link {
+  color: #fff;
+}
+.link-item:hover {
+  background-color: #19657f;
+  border-radius: 18px;
+  color: #fff;
+}
+.dropdown-item:hover {
+  background-color: rgb(162, 188, 232);
+  color: #104353;
+}
+
+.navbar-togglers {
+  border: none;
+  outline: none;
+  font-size: 22px;
+  background: none;
+  color: #fff;
+}
+/* section-header */
+.section-header {
+  background: url(/imgs/zawia2.png) no-repeat center center;
+  background-size: cover;
+  padding-top: 4em;
+}
+.imgs-def {
+  width: 30em;
+}
+.row-gathred-def {
+  display: flex;
+  align-items: center;
+}
+.txt-nafahat {
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.sub-section-def {
+  color: #fff;
+}
+.download-app {
+  display: flex;
+}
+.down {
+  width: 10em;
+}
+.row-gathred-defs {
+  display: flex;
+  align-items: center;
+}
+.sub-section-app {
+  color: #fff;
+}
+/* section-one */
+.title-page {
+  font-weight: bold;
+  font-size: 30px;
+}
+.download-now {
+  border: none;
+  background-color: #d5a461;
+  padding: 0.4em 4em;
+  color: #fff;
+  border-radius: 19px;
+  font-size: 14px;
+}
+.sub-img-iphone {
+  font-weight: bold;
+  font-size: 20px;
+}
+.contain-img-section {
+  display: flex;
+  justify-content: center;
+}
+
+.img-iphone-quran {
+  width: 29em;
+}
+.collect-columns-row-quran {
+  display: flex;
+  align-items: center;
+  background: url(/imgs/back-3.png) no-repeat left center;
+}
+/* section2 */
+.section-2 {
+  display: flex;
+  align-items: center;
+  background: url(/imgs/right.png) no-repeat right center;
+}
+.contetn-section2 {
+  display: flex;
+  justify-content: center;
+}
+.contain-img-section2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* section-makia */
+.tit-makia {
+  font-weight: bold;
+  font-size: 30px;
+}
+.sub-title-makia {
+  font-weight: bold;
+  font-size: 17px;
+}
+.row-section-makia {
+  display: flex;
+  align-items: center;
+}
+.col-bottom-makia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.down-play {
+  width: 11em;
+}
+.down-app {
+  width: 9.7em;
+}
+.part-btn-bottom-makia {
+  transform: translateY(1.5em);
+}
+.iphone-img {
+  width: 29em;
+}
+.section-makia {
+  background: url(/imgs/back.png);
+  background-size: cover;
+}
+.group-of-links {
+  display: flex;
+}
+.contetn-above {
+  text-align: center;
+}
+.btn-transorming {
+  transform: translate(-10em, 1.5em);
+}
+/* data-footer-scale */
+.content-data {
+  display: flex;
+  justify-content: center;
+}
+.img-scale-footer {
+  width: 40em;
+}
+/* footer */
+.footer-one {
+  background-color: #19657f;
+}
+.row-items-complete {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+.col-links-logo-media {
+  display: flex;
+  justify-content: flex-end;
+}
+.end-footer-line {
+  background-color: #144d60;
+  color: rgb(204, 202, 202);
+}
+.color-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

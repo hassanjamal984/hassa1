@@ -1,0 +1,155 @@
+/* Mobile */
+@media (max-width: 574px) {
+  .col-text-def-bellow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sub-section-quran {
+    font-size: 12px;
+    color: #fff;
+  }
+  .content-img-definition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-text {
+    width: 7em;
+  }
+  .txt-quran {
+    font-size: 22px;
+  }
+  .down {
+    width: 6em;
+  }
+  .imgs-quran {
+    width: 22em;
+    padding-top: 3em;
+  }
+  .links-language {
+    transform: none;
+    font-size: 13px;
+    margin-top: 2em;
+  }
+  .dropdown-item {
+    font-size: 12px;
+  }
+  .img-face-books-page {
+    width: 18em;
+  }
+  .part-box-audio {
+    display: flex;
+    justify-content: center;
+  }
+  .tit-audio {
+    font-size: 9px;
+  }
+  .arrow-audio {
+    width: 0.9em;
+  }
+  .img-audio {
+    width: 1.5em;
+  }
+  .img-face-books {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+  }
+  .tit-page-boxs {
+    font-size: 17px;
+  }
+  .sub-page-items {
+    font-size: 15px;
+  }
+  .clouck {
+    font-size: 13px;
+  }
+  .arrows {
+    width: 1.3em;
+  }
+  /* footer */
+  .rights {
+    font-size: 12px;
+  }
+  .img-footer-txt {
+    width: 10em;
+  }
+}
+/* Tablet */
+@media (max-width: 991px) {
+  .col-text-def-bellow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7em;
+  }
+  .sub-section-def {
+    font-size: 18px;
+  }
+  .sub-section-quran {
+    font-size: 12px;
+    color: #fff;
+  }
+  .content-img-definition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-text {
+    width: 7em;
+  }
+  .txt-quran {
+    font-size: 23px;
+  }
+  .imgs-quran {
+    width: 22em;
+  }
+  .links-language {
+    transform: none;
+  }
+  .links-language {
+    transform: none;
+    font-size: 13px;
+    margin-top: 2em;
+  }
+  .img-face-books-page {
+    width: 21em;
+  }
+  .part-box-audio {
+    display: flex;
+    justify-content: center;
+  }
+  .tit-audio {
+    font-size: 9px;
+  }
+  .arrow-audio {
+    width: 0.9em;
+  }
+  .img-audio {
+    width: 1.5em;
+  }
+  .img-face-books {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+  }
+  /* footer */
+  .rights {
+    font-size: 12px;
+  }
+  .img-footer-txt {
+    width: 10em;
+  }
+  .arrows {
+    width: 1.3em;
+  }
+}
+/* Laptop */
+@media (min-width: 991px) {
+  .navbar-togglers {
+    display: none;
+  }
+}

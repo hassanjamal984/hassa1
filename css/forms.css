@@ -1,0 +1,121 @@
+@font-face {
+  font-family: noto-Regular;
+  src: url(/fonts/Noto/NotoKufiArabic-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: noto-Regular;
+}
+/* navbar */
+.navbar {
+  background-color: #d5a461;
+}
+.nav-link {
+  color: #fff;
+}
+.dropdown-item:hover {
+  background-color: rgb(162, 188, 232);
+  color: #104353;
+}
+.link-item {
+  background-color: #d5a461;
+  border-radius: 20px;
+}
+.link-item:hover {
+  background-color: #19657f;
+  border-radius: 20px;
+  color: #fff;
+}
+.navbar-togglers {
+  border: none;
+  outline: none;
+  font-size: 22px;
+  background: none;
+  color: #fff;
+}
+/* section-header */
+.section-header {
+  background: url(/imgs/back-8.png) no-repeat center right;
+  background-size: cover;
+  padding: 2.8em 0;
+}
+.txt-books {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.sub-section-books {
+  color: #fff;
+}
+.links-language {
+  display: inline-block;
+  background-color: #fff;
+  color: black;
+  padding: 0.3em 1.5em;
+  border-radius: 16px;
+  transform: translateY(8.7em);
+  box-shadow: 0px 0px 7px 0px rgb(197, 196, 196);
+}
+/* section-form */
+.section-forms {
+  background-color: #fff;
+  box-shadow: 0px 0px 17px -2px rgb(197 196 196);
+  width: 60%;
+  padding: 5em 3em;
+  margin: auto;
+  display: flex;
+  border-radius: 20px;
+  transform: translateY(-10em);
+}
+.inputs {
+  height: 2.5em;
+  border-radius: 11px;
+  background-color: #f9faff;
+  border: solid 1px rgb(211, 211, 211);
+  padding-right: 1em;
+  width: 100%;
+}
+.inputs:focus {
+  outline: solid 1px #19657f;
+}
+.textareas {
+  resize: none;
+  height: 10em;
+  padding-top: 1em;
+}
+.send-btn {
+  border: none;
+  background-color: #d5a461;
+  padding: 0.5em 8em;
+  display: flex;
+  border-radius: 20px;
+  color: #fff;
+}
+.input-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+/* footer */
+.footer-one {
+  background-color: #19657f;
+}
+.row-items-complete {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+.col-links-logo-media {
+  display: flex;
+  justify-content: flex-end;
+}
+.end-footer-line {
+  background-color: #144d60;
+  color: rgb(204, 202, 202);
+}
+.color-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
